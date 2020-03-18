@@ -8,7 +8,7 @@ pipeline {
             gitCheckout(
                 branch: "master",
                 url: "https://github.com/spring-projects/spring-petclinic.git",
-                CredentialId: "jkey1"
+                //CredentialId: "jkey1"
             )
             }
     }
